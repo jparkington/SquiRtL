@@ -1,7 +1,9 @@
 # SquiRtL
-*Exploring reinforcement learning and its core algorithms through Pokémon Red*
+*Exploring reinforcement learning and its core algorithms through Pokémon Blue*
 
-**SquiRtL** aims to explore and implement various algorithms within a game environment, specifically focusing on an emulator for Pokemon Red. Inspired by **PWhiddy's Pokemon Red Experiments**, the project will involve developing and optimizing algorithms to solve different categories of problems: Optimization, NP Complete, and a Wildcard algorithm. The motivation behind this project is to leverage reinforcement learning and algorithmic strategies to enhance game-playing AI, providing both a practical application and a deep dive into the theoretical aspects of these algorithms.
+**SquiRtL** aims to explore and implement various algorithms within a game environment, specifically focusing on Pokémon Blue pathfinding and optimal early gameplay. 
+
+Inspired by **PWhiddy's Pokemon Red Experiments**, the project will involve researching and documenting algorithms intended to solve different categories of problems: Optimization, NP Complete, and a Wildcard algorithm. The motivation behind this project is to understand how one would leverage reinforcement learning strategies to enhance game-playing AI, providing both a practical application and a deep dive into the theoretical aspects of these algorithms.
 
 ## Algorithms
 
