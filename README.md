@@ -8,7 +8,7 @@ Inspired by **PWhiddy's Pokemon Red Experiments**, the project will involve rese
 ## Algorithms
 
 ### Optimization Algorithm
-**Title:** Pathfinding Optimization using A* Algorithm
+*Pathfinding Optimization using A\* Algorithm*
 
 **Description:**
 In the game environment, the A* algorithm can be used to find the shortest path from the starting location to a target location. This is particularly useful in navigating the game map efficiently.
@@ -16,14 +16,14 @@ In the game environment, the A* algorithm can be used to find the shortest path 
 **Steps:**
 1. **Graph Representation:** Represent the game map as a graph where each node is a position on the map and edges represent possible moves.
 2. **Heuristic Function:** Implement a heuristic function that estimates the cost to reach the target from any node (e.g., Euclidean distance).
-3. **A* Implementation:** Implement the A* algorithm to find the optimal path from the starting node to the target node.
+3. **A\* Implementation:** Implement the A* algorithm to find the optimal path from the starting node to the target node.
 4. **Integration:** Integrate the A* pathfinding with the game emulator to guide the AI's movement.
 
 **Research Reference:**
 - **Chapter 22 (Single-Source Shortest Paths):** The Bellman-Ford algorithm and Dijkstra’s algorithm can provide foundational knowledge for understanding pathfinding and optimization techniques in graphs.
 
 ### NP Complete Algorithm
-**Title:** Traveling Salesman Problem (TSP) for Optimal Route Planning
+*Traveling Salesman Problem (TSP) for Optimal Route Planning*
 
 **Description:**
 The TSP can be applied to find the shortest possible route that visits a set of important locations (e.g., all gym leaders or item collection points) exactly once and returns to the starting point. This is crucial for optimizing in-game travel.
@@ -38,7 +38,7 @@ The TSP can be applied to find the shortest possible route that visits a set of 
 - **Chapter 35 (Approximation Algorithms):** Techniques for solving NP-complete problems like the TSP using approximation algorithms.
 
 ### Wildcard Algorithm
-**Title:** Reinforcement Learning with Proximal Policy Optimization (PPO)
+*Reinforcement Learning with Proximal Policy Optimization (PPO)*
 
 **Description:**
 Utilize the PPO algorithm to train an AI agent to play the game, focusing on exploration and reward optimization.
@@ -47,7 +47,7 @@ Utilize the PPO algorithm to train an AI agent to play the game, focusing on exp
 1. **Environment Setup:** Use a Game Boy emulator to run the game and interact with it using a reinforcement learning framework.
 2. **State Representation:** Represent the game state using visual inputs and encode necessary game state information (e.g., current location, health points).
 3. **Reward Function:** Design a reward function that encourages exploration and game progression (e.g., reaching new areas, winning battles).
-4. **PPO Implementation:** Implement the PPO algorithm to train the AI, leveraging libraries such as OpenAI’s Gym and TensorFlow.
+4. **PPO Implementation:** Implement the PPO algorithm to train the AI, leveraging libraries such as TensorFlow.
 5. **Training and Evaluation:** Train the AI on multiple parallel game instances and evaluate its performance.
 
 **Research Reference:**
