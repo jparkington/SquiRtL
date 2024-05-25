@@ -7,6 +7,8 @@ Inspired by **PWhiddy's Pokemon Red Experiments**, the project will involve rese
 
 ## Algorithms
 
+(*Side Note*: Is the logic for finding a "novel" amount of pixels on screen via computer vision subject to some kind of optimization algorithm?)
+
 ### Optimization Algorithm
 *Pathfinding Optimization using A\* Algorithm*
 
