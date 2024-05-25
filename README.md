@@ -7,22 +7,20 @@ Inspired by **PWhiddy's Pokemon Red Experiments**, the project will involve rese
 
 ## Algorithms
 
-(*Side Note*: Is the logic for finding a "novel" amount of pixels on screen via computer vision subject to some kind of optimization algorithm?)
-
 ### Optimization Algorithm
-*Pathfinding Optimization using A\* Algorithm*
+*Game Visual State Compression using Principal Component Analysis (PCA)*
 
 **Description:**
-In the game environment, the A* algorithm can be used to find the shortest path from the starting location to a target location. This is particularly useful in navigating the game map efficiently.
+Apply PCA to compress and represent the visual game state obtained from the emulator's output. This optimization problem aims to reduce the dimensionality of the visual state representation while preserving the most important visual features, enabling more efficient processing and novelty detection.
 
 **Steps:**
-1. **Graph Representation:** Represent the game map as a graph where each node is a position on the map and edges represent possible moves.
-2. **Heuristic Function:** Implement a heuristic function that estimates the cost to reach the target from any node (e.g., Euclidean distance).
-3. **A\* Implementation:** Implement the A* algorithm to find the optimal path from the starting node to the target node.
-4. **Integration:** Integrate the A* pathfinding with the game emulator to guide the AI's movement.
+1. **Data Collection:** Collect a dataset of preprocessed visual state images by running the game and capturing the emulator's output at different points.
+2. **PCA Implementation:** Implement the PCA algorithm to identify the principal components that capture the most variance in the visual state data.
+3. **Visual State Compression:** Transform the original visual state images into a lower-dimensional space using the selected eigenvectors.
+4. **Novelty Detection and Integration:** Use the compressed visual state representation to detect novel game states and integrate it into the AI agent's learning and decision-making pipeline, incorporating a novelty metric into the reward function.
 
 **Research Reference:**
-- **Chapter 22 (Single-Source Shortest Paths):** The Bellman-Ford algorithm and Dijkstra’s algorithm can provide foundational knowledge for understanding pathfinding and optimization techniques in graphs.
+- **Chapter 29 (Linear Programming):** The sections on principal component analysis and dimensionality reduction provide the theoretical foundation for this optimization problem.
 
 ### NP Complete Algorithm
 *Traveling Salesman Problem (TSP) for Optimal Route Planning*
